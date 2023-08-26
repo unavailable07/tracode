@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra code</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/script.js"></script>
+</head>
+
+<body data-bs-theme="dark">
+    <div class="main">
+        <div class="body text-center">
+            <h1>Tra code</h1>
+            <h3>Chú ý: Bạn cần sử dụng vpn (vd 1.1.1.1) để có thể tra được code</h3>
+
+            <div class="input-box">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Nhập code</span>
+                    <input id="code-input" type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <button class="btn btn-secondary" onclick="tra_code()">Tra code</button>
+                <button class="btn btn-secondary" onclick="mo_code()">Truy cập code</button>
+                <button class="btn btn-secondary" onclick="remove()">Xóa</button>
+            </div>
+
+            <iframe src="" frameborder="0" class="code-screen" id="code-screen"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
